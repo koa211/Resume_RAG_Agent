@@ -1,0 +1,470 @@
+﻿Company logo for, Relativity. 
+
+Relativity
+Software Engineer
+Arizona, United States · Reposted 3 weeks ago · Over 100 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+Hybrid
+Full-time
+Apply
+Save
+Your profile and resume match some required qualifications
+*   *      * Show match details
+BETA • Is this information helpful?
+Get personalized tips to stand out to hirers
+Find jobs where you’re a top applicant and tailor your resume with the help of AI.
+Reactivate Premium
+People you can reach out to
+  
+
+School alumni from Arizona State University
+Show all
+About the job
+Posting Type
+
+
+Hybrid/Remote
+
+Job Overview
+
+WHO WE ARE
+
+Relativity is a leading legal data intelligence company building technology that helps users organize data, discover the truth, and act on it with confidence. Our AI-powered, cloud platform, RelativityOne, transforms massive volumes of complex information into actionable insights for litigation, investigations, regulatory inquiries, data breach responses, and other high-stakes legal work where accuracy and trust are crucial.
+
+The world’s largest law firms, corporations, and government agencies rely on Relativity’s legal AI software to securely surface and manage the most relevant and impactful information in their matters. Beyond our commercial impact, we’re deeply committed to expanding access to technology for academic institutions through Relativity Academic and supporting pro bono legal work through Justice for Change.
+
+What We Do
+
+At Relativity, engineers don’t just write code. They build the systems that power AI-driven workflows at massive scale, enabling customers to uncover insights and act on complex data with confidence.
+
+aiR Services Team
+
+The aiR Services team builds the shared backend platform that powers Relativity’s generative AI products. These systems enable secure and scalable access to foundation models across the aiR Suite while handling challenges such as limited model capacity, global data privacy requirements, and fair usage across products and customers. The team works on high-throughput, distributed systems that route AI traffic across regions and providers, protect downstream services from reliability risks, and optimize cost and performance at scale.
+
+If you’re excited about building platforms that power an entire product suite, working with generative AI systems in production, and solving distributed systems challenges at global scale, this is a high-impact team to join.
+
+Job Description And Requirements
+
+ABOUT THE ROLE
+
+As a Software Engineer, you will build and operate backend services that power Relativity’s generative AI platform, aiR. You will work at the intersection of distributed systems, cloud infrastructure, and applied AI, helping to deliver reliable, scalable systems that sit on the critical path of AI-powered workflows.
+
+This role reports to the Manager of Software Engineering and provides the opportunity to work on multi-region, multi-cloud systems that handle large-scale AI traffic and complex orchestration challenges.
+
+What You’ll Do
+
+   * Design and build performant, scalable, and secure backend services with a strong focus on quality, not just meeting requirements
+   * Collaborate with a software development team to deliver high-quality, reliable systems that operate at massive scale
+   * Develop and maintain systems that support high-throughput AI workloads, including asynchronous job orchestration and distributed processing
+   * Write comprehensive unit and integration tests supported by static analysis and thoughtful test strategy development
+   * Contribute to improving engineering processes by recommending enhancements to tools, workflows, and practices
+   * Participate in pair programming to improve software quality and share design and implementation knowledge
+   * Contribute to building systems that route and manage AI traffic efficiently while maintaining reliability and fairness across workloads
+
+Required
+
+
+WHAT WE’RE LOOKING FOR
+
+
+      * Bachelor’s degree in Computer Science or a related field, or equivalent practical experience
+      * Experience building backend services using languages such as C#, Python, or similar
+      * Understanding of software engineering disciplines and the ability to work across multiple layers of the application stack
+      * Strong foundational knowledge of distributed systems, scalability, and backend service design
+
+Preferred
+
+
+         * Understanding of DevOps principles and experience with tools such as GitHub Actions
+         * Experience working with large language model (LLM) APIs or generative AI systems
+         * Experience designing and building scalable systems in Azure or other cloud platforms
+         * Experience with Kubernetes, serverless technologies, and cloud-native architectures
+         * Familiarity with domain-driven design and event-driven architecture
+         * Experience with AI-driven development practices or AI-assisted coding tools
+         * Awareness of emerging technology trends and their practical application in engineering
+
+WHY WE COULD BE A GREAT FIT
+
+
+Impactful AI Platform
+
+
+            * Build foundational systems that power Relativity’s generative AI capabilities and enable products across the aiR Suite.
+
+Distributed Systems at Scale
+
+
+               * Work on high-throughput, multi-region services that handle large volumes of AI traffic reliably and efficiently.
+
+Cutting-Edge Technology
+
+
+                  * Gain hands-on experience with generative AI systems, cloud-native infrastructure, and modern distributed architectures.
+
+Growth Opportunity
+
+
+                     * Develop deep expertise in backend systems, cloud platforms, and AI-driven services while working on highly visible, impactful projects.
+
+Collaborative Culture
+
+
+                        * Work with a team that values strong engineering fundamentals, shared ownership, and continuous learning.
+
+Compensation And Benefits
+
+
+                           * Competitive salary, health and retirement programs, wellness resources, discretionary time off (DTO), parental leave for primary and secondary caregivers, company-wide breaks, home office stipend, and an equity program.
+
+Relativity is committed to competitive, fair, and equitable compensation practices.
+
+
+This position is eligible for total compensation which includes a competitive base salary, an annual performance bonus, and long-term incentives.
+
+
+The expected salary range for this role is between following values:
+
+
+$79,000 and $119,000
+
+
+The final offered salary will be based on several factors, including but not limited to the candidate's depth of experience, skill set, qualifications, and internal pay equity. Hiring at the top end of the range would not be typical, to allow for future meaningful salary growth in this position.
+
+
+Required Skills
+
+
+Automation, Documentations, Engineering Design, Problem Solving, Process Improvements, Project Management, Quality Assurance (QA), Research and Development, System Integration, Troubleshooting
+
+
+
+
+ Company logo for, Garmin. 
+
+Garmin
+Software Engineer 1
+Chandler, AZ · Reposted 1 week ago · Over 100 people clicked apply
+Promoted by hirer · Responses managed off LinkedIn
+Full-time
+Apply
+Save
+Your profile and resume match some required qualifications
+                              *                                 *                                    * Show match details
+BETA • Is this information helpful?
+Get personalized tips to stand out to hirers
+Find jobs where you’re a top applicant and tailor your resume with the help of AI.
+Reactivate Premium
+People you can reach out to
+  
+
+School alumni from Arizona State University
+Show all
+About the job
+Overview
+
+We are seeking a full-time Software Engineer 1 at our Chandler, AZ location. In this role, you will be responsible for building upon existing software solutions to develop basic software for Garmin products and/or applications.
+
+Essential Functions
+
+                                 * Performs new product and/or application software design and development as well as maintenance activities for products and/or applications already in production using C, C++, C#, Java, assembly language, or other selected languages
+                                 * Troubleshoots basic issue reports, reproduces issues, evaluates technical cause and implements and tests software solutions
+                                 * Identifies and resolves defects of basic scope using proper engineering tools and techniques such as debuggers, emulators, simulators, and logic analyzers
+                                 * Applies design standards and procedures using appropriate engineering tools to document and implement basic designs in an organized manner
+                                 * Supports working hours as part of a rotating schedule to provide on call support of Garmin’s 24/7 operations
+
+
+Basic Qualifications
+
+
+                                    * Bachelor’s Degree in Computer Science, Electrical Engineering, Computer Engineering, Software Engineering, Aerospace Engineering, Math, Physics or related field OR an equivalent combination of education and experience
+                                    * Excellent academics (cumulative GPA greater than or equal to 3.0 as a general rule)
+                                    * Demonstrated knowledge, education, experience and/or training necessary to develop basic software in C, C++, C#, Java, assembly language, or other selected languages
+
+
+Desired Qualifications
+
+
+                                       * Outstanding academics (cumulative GPA greater than or equal to 3.5)
+                                       * Previous work or internship experience in design, particularly for consumer products
+
+
+Garmin International is an equal opportunity employer. Qualified applicants will receive consideration for employment without regard to race, religion, color, national origin, citizenship, sex, sexual orientation, gender identity, veteran’s status, age or disability.
+
+
+This position is eligible for Garmin's benefit program. Details can be found here: Garmin Benefits
+
+
+
+
+ Company logo for, Avnet. 
+
+Avnet
+Software Developer
+Tempe, AZ · 1 month ago · Over 100 people clicked apply
+Responses managed off LinkedIn
+Full-time
+Apply
+Save
+Your profile and resume match some required qualifications
+                                          *                                             *                                                * Show match details
+BETA • Is this information helpful?
+Get personalized tips to stand out to hirers
+Find jobs where you’re a top applicant and tailor your resume with the help of AI.
+Reactivate Premium
+People you can reach out to
+                                             *                                                *   Kent and others in your network
+Show all
+Meet the hiring team
+  
+
+Sumesh Bammancheri
+• 2nd
+Technology Architect | Enterprise Programs | SupplyChain | eCommerce
+Message
+About the job
+Who We Are
+
+At Avnet, relationships matter. We are a global, FORTUNE ® 500 technology distributor and solutions company that delivers design, supply chain and logistics expertise to customers at every stage of a product’s lifecycle. Our employees have a front row seat to the latest innovations shaping the world we live in and the future we share. We’re driven to help our customers around the world succeed and we do so by earning the trust of some of the biggest names in technology.
+
+Working at Avnet means being a part of a global team. We work collaboratively and with integrity, doing business the right way. For more than a century, we have partnered together to help our customers, suppliers and teammates realize the transformative possibilities of technology. Experience what’s next at Avnet!
+
+                                                * Candidate must be currently local to greater PHX area. This position is fully onsite**
+
+Job Summary
+
+
+Develops, maintains, and enhances business applications. Collaborates with stakeholders to validate user requirements, assess available technologies, and recommend solution options. Assesses objectives for assigned project phases and recommends technical strategies and tactics to achieve business needs.
+
+
+Principal Responsibilities
+
+
+                                                   * Uses process design technology methodologies, programming languages and tools and solutions design techniques to develop applications to meet business specifications.
+                                                   * Validates functional specifications, builds technical specifications and develops application documentation.
+                                                   * Performs analysis, design, development and testing of applications to solve business requirements.
+                                                   * Integrates new or enhanced application components.
+                                                   * Develops conversion and system implementation plans.
+                                                   * Supports change readiness initiatives as needed.
+                                                   * Other duties as assigned.
+
+Job Level Specifications
+
+
+                                                      * Foundational knowledge of specialized disciplines, industry practices and standards, acquired via academic instruction and/or relevant work experience of substantially the same level.
+                                                      * Develops solutions to defined tasks, typical assignments and projects. May be solved by the application of specialized foundational knowledge, using existing approaches and solutions.
+                                                      * Work is usually performed independently and requires the exercise of judgment and discretion. Receives initial direction although work may be reviewed for accuracy and quality.
+                                                      * Collaborates with immediate management and team members within the department or function.
+
+Work Experience
+
+
+                                                         * Typically less than 2 years with bachelor's or equivalent.
+
+Education And Certification(s)
+
+
+                                                            * Bachelor's degree or equivalent experience from which comparable knowledge and job skills can be obtained.
+
+Distinguishing Characteristics
+
+
+                                                               * Project experience in Full-stack application development using Angular and Java or similar technologies
+                                                               * Building and coding applications using languages/technologies such as Java, Python, Spring, Web Services, , SQL;
+                                                               * Frontend technologies: Angular, HTML, CSS, TypeScript, and Bootstrap.
+                                                               * SQL database design and development;
+
+What We Offer
+
+
+Our employees work hard to live our values and help us grow. Our total rewards strategy supports Avnet’s ability to attract, engage, develop, and reward our employees, while promoting a diverse and inclusive environment. We offer competitive compensation and benefit programs — from time away and flexible working arrangements to programs supporting employee well-being and opportunities to give back to your community.
+
+
+                                                                  * Generous Paid Time Off
+                                                                  * 401K and Pension Plan
+                                                                  * Paid Holidays
+                                                                  * Family Support (Paid Leave, Surrogacy, Adoption)
+                                                                  * Medical, Dental, Vision, and Life Insurance
+                                                                  * Long-term and Short-term Disability Insurance
+                                                                  * Health Savings Account / Flexible Spending Account
+                                                                  * Education Assistance
+                                                                  * Employee Development Resources
+                                                                  * Employee Wellness, Leadership Development and Mentorship Programs
+
+Benefits listed above may vary depending on the nature of your employment with Avnet.
+
+
+The above statements are intended to describe the general nature and level of work being performed. They are not intended to be construed as an exhaustive list of all responsibilities, duties, and skills.
+
+
+Avnet is an Equal Opportunity Employer committed to providing equal opportunities to all employees and applicants for employment without regard to race, color, religion, ancestry, national origin, sex (including pregnancy), age, marital status, sexual orientation, gender identity or expression, disability, veteran status, genetic information or any other characteristic protected by law. This policy of non-discrimination also applies to religious dress and grooming practices. Avnet will accommodate employee religious dress standards and grooming practices that do not result in undue hardship for the Company. If you are interested in applying for employment with Avnet and need special assistance or an accommodation to apply for a posted position contact our Human Resources Service Center at (888) 994-7669.
+________________
+
+
+Benefits found in job post
+401(k), Pension plan, Disability insurance
+
+
+ Company logo for, Carvana. 
+
+Carvana
+Engineering Apex
+Tempe, AZ · 5 months ago · Over 100 people clicked apply
+Responses managed off LinkedIn
+On-site
+Full-time
+Apply
+Save
+Your profile and resume match the required qualifications well
+                                                                     *                                                                        *                                                                           * Show match details
+BETA • Is this information helpful?
+Get personalized tips to stand out to hirers
+Find jobs where you’re a top applicant and tailor your resume with the help of AI.
+Reactivate Premium
+People you can reach out to
+  
+
+School alumni from Arizona State University
+Show all
+About the job
+Learn more about Carvana Apex for early career opportunities here:
+
+
+Accelerate Your Career!
+
+Explore the Product Apex application here.
+
+Before you proceed to the application, please prepare your 3–5 minute "Apex Pitch" video. See examples from current Carvana employees here.
+
+Your video should be a short walkthrough of what led you to apply and how you went about solving a specific problem using technology. We don’t expect high production value, we just want the real you.
+
+Please Address These Three Areas
+
+                                                                        * The "Why": Why Carvana, and why join us at this specific moment?
+                                                                        * The Track: Why is Software Engineering the right fit for your skills?
+                                                                        * The Build: Walk us through an AI-driven application or solution you’ve personally built. It can be any project—personal, for school, an internship, etc.
+                                                                        * Show us what you built and explain the thought-process behind specific decisions you made along the way.
+                                                                        * Detail exactly how AI played a role in building it—planning, writing code, etc.
+                                                                        * Use a screen-recording tool and walk us through your prompt creation, documentation, code, or other specific artifacts while you discuss.
+                                                                        * We are interested in your creative process and problem-solving steps rather than a product demonstration.
+How To Record & Share
+
+
+You can use any tool you like, but our favorites for tech demos allow us to see your face and your screen while you share:
+
+
+                                                                        * Loom (Recommended): Great for "picture-in-picture" recordings of you and your screen.
+                                                                        * Camtasia or Clipchamp: Best if you want to edit multiple takes together.
+                                                                        * Zoom: Use “shared screen with speaker view.”
+
+Ensure your video is uploaded to a cloud service such as YouTube or Google Drive and set to "Public,” Unlisted,” or "Anyone with the link can view." Test your link in an Incognito or Private browser window before submitting to make sure we can see it.
+
+
+About Us And The Apex Program
+
+
+Carvana is the fastest-growing used auto retailer in U.S. history. Our technology teams are the engine behind:
+
+
+                                                                           * Next-Gen E-commerce: End-to-end platforms for buying and selling cars via Carvana.com and our mobile apps.
+                                                                           * AI-Driven Support: Proprietary CRM and AI tools managing chat, email, SMS, and voice.
+                                                                           * Computer Vision: 360° photography and interactive merchandising using cutting-edge AI.
+                                                                           * Advanced Fintech: The world’s most sophisticated, self-service automotive lending platform.
+                                                                           * Logistics & Robotics: Managing a nationwide fleet and enterprise-grade automation for the largest reconditioning facilities in the US.
+                                                                           * AI Developer Experience: Early adoption of AI tools to optimize our own developer efficiency.
+
+What you’ll experience and deliver as part of our inaugural cohort
+
+
+                                                                              * Contribute to Scale: Own medium-to-large projects with cross-functional impact.
+                                                                              * Write Elite Code: Develop scalable, testable, and modularized solutions.
+                                                                              * Master the Stack: Work with cloud systems (Azure), Kafka for real-time streaming, and Kubernetes for scaling.
+                                                                              * Collaborate: Use Agile methodologies to design new features alongside Product and Design. You will be part of a cohort that learns together, and also part of a core team of experienced developers.
+                                                                              * Stay Ahead: Explore new technologies and approaches to bring Carvana’s engineering to the next level.
+
+What you’ll need to succeed
+
+
+                                                                                 * Experience: 0–3 years of software development experience.
+                                                                                 * Tech Stack: Proficiency in C# / .NET Core (GraphQL/RESTful via Web API) and Azure services OR JavaScript / TypeScript (React Hooks, Next.js, Nx).
+                                                                                 * Fundamentals: Strong skills in unit testing, debugging, and API integrations.
+                                                                                 * Mindset: A positive attitude, a willingness to be flexible, and a deep hunger to learn.
+
+Legal stuff
+
+
+Hiring is contingent on passing a complete background check. This role is eligible for visa sponsorship.
+
+
+Carvana is an equal employment opportunity employer. All applicants receive consideration for employment without regard to race, color, religion, gender, sexual orientation, gender identity or expression, marital status, national origin, age, mental or physical disability, protected veteran status, or genetic information, or any other basis protected by applicable law. Carvana also prohibits harassment of applicants or employees based on any of these protected categories.
+
+
+Please note this job description is not designed to contain a comprehensive listing of activities, duties, or responsibilities that are required of the employee for this job. Duties, responsibilities, and activities may change at any time with or without notice.
+
+
+ Company logo for, Matlen Silver. 
+
+Matlen Silver
+Infrastructure Engineer
+Chandler, AZ · 2 weeks ago · Over 100 applicants
+Promoted by hirer · Actively reviewing applicants
+$55/hr - $65/hr
+Hybrid
+Contract
+Easy Apply
+Save
+Your profile and resume match the required qualifications well
+                                                                                    *                                                                                       *                                                                                          * Show match details
+BETA • Is this information helpful?
+Get personalized tips to stand out to hirers
+Find jobs where you’re a top applicant and tailor your resume with the help of AI.
+Reactivate Premium
+People you can reach out to
+  
+
+Bryan Reniker
+• 3rd
+Sr. Product Manager
+School alum from Arizona State University
+Message
+Meet the hiring team
+  
+
+Stephanie Muse
+• 3rd
+Certified Technical Recruiter at Matlen Silver
+Job poster
+Message
+About the job
+Infrastructure Engineer
+Chandler, AZ
+18 Month W2 Contract
+Hybrid 3 days onsite 2 days remote
+$55-$65/hour
+The Engineer II is responsible for designing, developing, enhancing, and supporting software applications and platform capabilities aligned to Core Technology Infrastructure (CTI). This role operates as an individual contributor within an Agile engineering team, delivering scalable and resilient solutions that support enterprise technology platforms and services.
+The role partners closely with software engineers, infrastructure teams, and production support to implement reliable, secure, and high-performing systems. The Software Engineer II works under general direction, with responsibility for executing moderately complex technical deliverables while contributing to design, automation, and continuous improvement efforts.
+Primary Skill
+Python
+Desired Skills
+                                                                                       * Experience working within Technology Infrastructure , platform engineering, or infrastructure-adjacent development teams.
+                                                                                       * Familiarity with cloud platforms (AWS, Azure, GCP) or hybrid infrastructure environments.
+                                                                                       * Experience with containerization and orchestration (e.g., Docker, Kubernetes).
+                                                                                       * Exposure to DevOps practices, automation frameworks, and infrastructure-as-code approaches.
+                                                                                       * Experience supporting high-availability or mission-critical systems.
+                                                                                       * Knowledge of observability tools (logging, monitoring, alerting frameworks).
+                                                                                       * Exposure to SRE practices or reliability engineering concepts (incident management, problem management).
+                                                                                       * Financial services or regulated industry experience, including compliance and risk-aware development practices.
+Required Skills
+                                                                                       * Strong proficiency in at least one programming language (e.g., Java, Python, or similar enterprise language).
+                                                                                       * Working knowledge of software development practices, including object-oriented design and modular development.
+                                                                                       * Experience with application development, debugging, testing, and production support.
+                                                                                       * Understanding of SDLC methodologies, including Agile practices.
+                                                                                       * Familiarity with APIs, microservices, and service-based architecture concepts.
+                                                                                       * Working knowledge of database technologies (SQL or NoSQL) and data access patterns.
+                                                                                       * Experience with version control systems (e.g., Git) and code management practices.
+                                                                                       * Understanding of CI/CD pipelines and automated deployment processes.
+                                                                                       * Knowledge of system integration, performance tuning, and troubleshooting techniques.
+                                                                                       * Awareness of security, risk, and compliance considerations within enterprise environments.
+                                                                                       * Strong analytical, problem-solving, and critical-thinking skills.
+                                                                                       * Effective communication and collaboration skills across technical and non-technical stakeholders.
+Secondary Skill
+Amazon Web Services

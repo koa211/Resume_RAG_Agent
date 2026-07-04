@@ -1,0 +1,32 @@
+﻿GIA KHOA LE
+Tempe, AZ | (623) 320-7248 | khoagle.work@gmail.com | linkedin.com/in/giakhoa-le | github.com/koa211 
+
+
+EDUCATION
+B.S. in Computer Science                                                                                                                                         May 2026 Arizona State University, Tempe, AZ                                                                     GPA: 3.80/4.00 | Dean’s List    
+
+
+WORK EXPERIENCE                                                                                                       
+Qualaces – Backend Developer (Sponsored Capstone Project) | Tempe, AZ | Aug 2025 – May 2026
+* Designed and implemented backend features for a test management platform using Spring Boot 3, PostgreSQL, and REST APIs
+* Contributed to data modeling, user management logic, and API endpoints supporting test suites, test runs, and project workflows
+* Deployed backend services in a cloud environment using AWS App Runner and RDS, optimizing cost and performance under sponsor constraints
+* Collaborated with a 5-member Agile team (Scrum) and participated in sponsor reviews, sprint planning, velocity tracking, and iterative refinement[a]
+
+
+Somotsoft LLC – Salesforce Integration Developer Intern | Remote | May 2025 – Oct 2025
+* Developed a Java 8 integration app enabling real-time event subscriptions through Salesforce Streaming API (CometD) and Pub/Sub API (gRPC/Avro)
+* Implemented OAuth 2.0 JWT Bearer authentication, including X.509 certificate generation, JWT claim setup, and secure token exchange with Salesforce
+* Deployed Salesforce integration app to SAP NetWeaver J75 using WAR/EAR packaging
+* Built an SAPUI5 frontend with dynamic forms and REST endpoints, enabling users to configure integration type, manage connections, and monitor logs
+
+Arizona State University – Subject Area Tutor | Tempe, AZ | Oct 2024 – May 2026     
+   * Tutored 111 students across 223 sessions, providing 56+ hours of support in Computer Science courses
+   * Guided students through problem-solving strategies and core concepts to promote active learning
+   * Participated in the Work+ program and team development through best-practice-focused staff meetings
+[a]Three main ideas for work exp:
+- Specify the purpose: the feature do what, data model for what.
+- Quantify the impact: how many app,feature, instances, how much data in (GB/TB/PB), 
+- List only the most important tools/skillsets that show direct impact. ( Any indirect ones you can leave under skills section)
+[b]Any project should have a link to github or some visualiaztion on a blog page or LInked article post
+[c]Any project should have a link to github or some visualiaztion on a blog page or LInked article post

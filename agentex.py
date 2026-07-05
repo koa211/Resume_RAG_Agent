@@ -5,13 +5,14 @@ from langchain.agents import create_agent
 from langchain.tools import tool
 from langchain.chat_models import init_chat_model
 from langgraph.checkpoint.memory import InMemorySaver
+from tavily import TavilyClient
 
 SYSTEM_PROMPT = """You are a resume research assistant.
 
 ## Capabilities
 
-- `fetch_text_from_txt`: loads document text into the conversation.
-Do not guess line counts or positions—ground them in tool results from the saved file."""
+- `search_documents: Fetch the txt from a folder that contains resume and job posting`
+`search_web: Search the web for current job market trends, salary data, or in-demand skills `"""
 
 folder = "job_collection"
 filenames = ["CS_resume.txt", "CS_resume2.txt", "JobPostings.txt", "LinkedinJobs.txt"]
@@ -36,7 +37,7 @@ results = collection.query(
 print(results)
 @tool 
 def search_documents(query: str) -> str:
-    """Fetch the txt from file in dir"""
+    """Fetch the txt from a folder that contains resume and job posting"""
     results = collection.query(query_texts=[query], n_results=4)
     return "\n\n".join(results["documents"][0])
 
@@ -47,11 +48,18 @@ model = init_chat_model(
     max_tokens=25000,
 )
 
+tavily_client = TavilyClient(api_key=os.environ["TAVILY_API_KEY"])
+@tool
+def search_web(query: str) -> str:
+    """Search the web for current job market trends, salary data, or in-demand skills."""
+    response = tavily_client.search(query)
+    return "\n\n".join(r["content"] for r in response["results"])
+
 checkpointer = InMemorySaver()
 
 agent = create_agent(
     model=model,
-    tools=[search_documents],
+    tools=[search_documents, search_web],
     system_prompt=SYSTEM_PROMPT,
     checkpointer=checkpointer,
 )

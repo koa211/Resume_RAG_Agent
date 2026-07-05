@@ -28,3 +28,5 @@ TECHNICAL SKILLS
    * Backend & APIs: Spring Boot, REST APIs, OAuth 2.0 (JWT), Salesforce Streaming API (CometD), Salesforce Pub/Sub API (gRPC/Avro), Apex
    * Databases & State: PostgreSQL, XML, Session State, Cookies
    * Cloud & DevOps: AWS (App Runner, RDS), Docker, Linux, Git, Maven, Log4j 2
+
+Additional notes: I've also been building a RAG/LangChain project and watching Andrej's makemore series to learn about AI

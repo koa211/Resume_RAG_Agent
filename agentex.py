@@ -64,14 +64,21 @@ agent = create_agent(
     checkpointer=checkpointer,
 )
 
+thread_config = {"configurable": {"thread_id": "resume-talk"}}
+
 content = f"""Using the documents that I have."
 Based on my listed skills and experience, what should I prioritise learning next given the 
 current job market trends? Ground your answer in what's actually in the resume—don't 
 guess at skills I don't have."""
 
-agent_result = agent.invoke(
+agent1 = agent.invoke(
     {"messages": [{"role": "user", "content": content}]},
-    config={"configurable": {"thread_id": "resume-talk"}},
-)
+    thread_config,
+)["messages"][-1].content_blocks
+print(agent1)
 
-print(agent_result["messages"][-1].content_blocks)
+response2 = agent.invoke(
+    {"messages": [{"role": "user", "content": "Of those, which one should I start with this week?"}]},
+    thread_config,
+)["messages"][-1].content_blocks
+print(response2)

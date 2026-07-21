@@ -6,6 +6,9 @@ from langchain.tools import tool
 from langchain.chat_models import init_chat_model
 from langgraph.checkpoint.memory import InMemorySaver
 from tavily import TavilyClient
+from dotenv import load_dotenv
+
+load_dotenv("key.env")
 
 SYSTEM_PROMPT = """You are a resume research assistant.
 
@@ -21,13 +24,15 @@ for fname in filenames:
     with open(os.path.join(folder, fname), "r", encoding="utf-8") as f:
         documents.append(f.read())
 
-chroma_client = chromadb.Client()
+chroma_client = chromadb.PersistentClient(path="./chroma_db")
 collection = chroma_client.get_or_create_collection(name="job_collection")
 
-collection.upsert(
-    ids=["id1", "id2", "id3", "id4"],
-    documents=documents
-)
+if collection.count() == 0:
+    documents = []
+    for fname in filenames:
+        with open(os.path.join(folder, fname), "r", encoding="utf-8") as f:
+            documents.append(f.read())
+    collection.upsert(ids=["id1", "id2", "id3", "id4"], documents=documents)
 
 results = collection.query(
     query_texts=["These are documents about a resume that is chunked and job postings from linkedin and indeed"],
@@ -82,3 +87,12 @@ response2 = agent.invoke(
     thread_config,
 )["messages"][-1].content_blocks
 print(response2)
+
+# asking what I build recently
+content2 = "What AI/ML projects have I built recently, based on my resume?"
+
+response3 = agent.invoke(
+    {"messages": [{"role": "user", "content": content2}]},
+    thread_config,
+)["messages"][-1].content_blocks
+print(response3)

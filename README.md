@@ -7,6 +7,7 @@ Searches live job postings and analyses your resume to figure out what skills ar
 - Multi-doc retrieval over resume + job postings (chunked, embedded, queried via Chroma)
 - Live job market search via Tavily
 - Multi-turn conversation memory (LangGraph checkpointer)
+- Persistent vector storage (Chroma on-disk, survives across runs)
 
 ## Tech stack
 
@@ -25,11 +26,11 @@ venv\Scripts\activate       # Windows
 pip install -r requirements.txt
 ```
 
-Set environment variables:
+Create a `.env` file in the project root (gitignored):
 
-```powershell
-$env:OPENAI_API_KEY="your-key-here"
-$env:TAVILY_API_KEY="your-key-here"
+```
+OPENAI_API_KEY=your-key-here
+TAVILY_API_KEY=your-key-here
 ```
 
 ## Usage
@@ -54,6 +55,10 @@ Example query:
 
 **A:** Kubernetes — best overlap with current Docker experience, most frequently mentioned across postings.
 
+**Grounding test:** "What AI/ML projects have I built recently, based on my resume?"
+
+**A:** Correctly identified the Resume RAG Agent itself (LangChain, LangGraph, ChromaDB, Tavily, OpenAI) as the primary AI/ML project, distinguishing it from adjacent automation work (Salesforce Apex triggers) rather than over-classifying everything as ML.
+
 ## Folder structure
 
 ```
@@ -66,11 +71,12 @@ job_collection/
 
 ## Limitations
 
-- Chroma runs in-memory — collection resets every run, no persistence yet
 - No deduplication or chunk overlap tuning applied
+- Re-embeds source docs only when collection is empty — doesn't yet detect changed file content on a populated collection
 
 ## Next steps
 
-- [ ] Persistent vector store (Chroma with disk storage, or swap to a hosted option)
-- [ ] Add this project itself as a resume entry, then re-test grounding
+- [x] Persistent vector store (Chroma with disk storage)
+- [x] Add this project itself as a resume entry, then re-test grounding
+- [ ] Detect changed source files and re-embed only what's updated, instead of empty-collection-only check
 - [ ] Maybe a simple CLI or web UI instead of hardcoded queries

@@ -17,11 +17,7 @@ Distributed Travel Management System (ASP.NET) – Team Project
    * Integrated team-developed services and components using session state, cookies, and XML persistence in a 3-person distributed team
 
 
-Savings Adventure (iOS)[c]
-   * Built a gamified finance tracker using SwiftUI + SwiftData with visual goal-tracking and location-based deals via Yelp API
-   * Designed a goal-based experience where users track savings progress along a visual runway toward financial goals
-   * Integrated the Yelp Fusion API to dynamically fetch nearby deals based on real-time user location
-
+Resume RAG Agent — Built a retrieval-augmented agent (LangChain, LangGraph, ChromaDB, Tavily, OpenAI) that grounds job-market recommendations in actual resume content and live job postings; added persistent vector storage and multi-turn conversational memory via LangGraph checkpointing
 
 TECHNICAL SKILLS
    * Languages: Java, Python, C#, C++, JavaScript, TypeScript, SQL, Bash

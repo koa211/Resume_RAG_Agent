@@ -78,5 +78,5 @@ job_collection/
 
 - [x] Persistent vector store (Chroma with disk storage)
 - [x] Add this project itself as a resume entry, then re-test grounding
-- [ ] Detect changed source files and re-embed only what's updated, instead of empty-collection-only check
-- [ ] Maybe a simple CLI or web UI instead of hardcoded queries
+- [x] Detect changed source files and re-embed only what's updated, instead of empty-collection-only check
+- [x] Maybe a simple CLI or web UI instead of hardcoded queries

@@ -1,5 +1,7 @@
 import chromadb
 import os
+import hashlib
+import json
 
 from langchain.agents import create_agent
 from langchain.tools import tool
@@ -10,12 +12,32 @@ from dotenv import load_dotenv
 
 load_dotenv("key.env")
 
+HASH_FILE = "file_hashes.json"
+
 SYSTEM_PROMPT = """You are a resume research assistant.
 
 ## Capabilities
 
 - `search_documents: Fetch the txt from a folder that contains resume and job posting`
 `search_web: Search the web for current job market trends, salary data, or in-demand skills `"""
+
+def get_file_hash(filepath):
+    with open(filepath, "rb") as f:
+        return hashlib.md5(f.read()).hexdigest()
+    
+def files_changed(filepaths):
+    old_hashes = {}
+    if os.path.exists(HASH_FILE):
+        with open(HASH_FILE, "r") as f:
+            old_hashes = json.load(f)
+
+    new_hashes = {fp: get_file_hash(fp) for fp in filepaths}
+    changed = new_hashes != old_hashes
+
+    with open(HASH_FILE, "w") as f:
+        json.dump(new_hashes, f)
+
+    return changed
 
 folder = "job_collection"
 filenames = ["CS_resume.txt", "CS_resume2.txt", "JobPostings.txt", "LinkedinJobs.txt"]
@@ -27,12 +49,18 @@ for fname in filenames:
 chroma_client = chromadb.PersistentClient(path="./chroma_db")
 collection = chroma_client.get_or_create_collection(name="job_collection")
 
-if collection.count() == 0:
+
+filepaths = [os.path.join(folder, f) for f in filenames]
+needs_embed = collection.count() == 0 or files_changed(filepaths)
+if needs_embed:
+    print("Re-embedding...")
     documents = []
     for fname in filenames:
         with open(os.path.join(folder, fname), "r", encoding="utf-8") as f:
             documents.append(f.read())
     collection.upsert(ids=["id1", "id2", "id3", "id4"], documents=documents)
+else:
+    print("Using cached embeddings")
 
 results = collection.query(
     query_texts=["These are documents about a resume that is chunked and job postings from linkedin and indeed"],
@@ -71,28 +99,12 @@ agent = create_agent(
 
 thread_config = {"configurable": {"thread_id": "resume-talk"}}
 
-content = f"""Using the documents that I have."
-Based on my listed skills and experience, what should I prioritise learning next given the 
-current job market trends? Ground your answer in what's actually in the resume—don't 
-guess at skills I don't have."""
-
-agent1 = agent.invoke(
-    {"messages": [{"role": "user", "content": content}]},
-    thread_config,
-)["messages"][-1].content_blocks
-print(agent1)
-
-response2 = agent.invoke(
-    {"messages": [{"role": "user", "content": "Of those, which one should I start with this week?"}]},
-    thread_config,
-)["messages"][-1].content_blocks
-print(response2)
-
-# asking what I build recently
-content2 = "What AI/ML projects have I built recently, based on my resume?"
-
-response3 = agent.invoke(
-    {"messages": [{"role": "user", "content": content2}]},
-    thread_config,
-)["messages"][-1].content_blocks
-print(response3)
+while True:
+    user_input = input("Ask something (or quit): ")
+    if user_input.lower() == "quit":
+        break
+    response = agent.invoke(
+        {"messages": [{"role": "user", "content": user_input}]},
+        thread_config,
+    )["messages"][-1].content_blocks
+    print(response)

@@ -28,5 +28,5 @@ Arizona State University – Subject Area Tutor | Tempe, AZ | Oct 2024 – May 2
 - Specify the purpose: the feature do what, data model for what.
 - Quantify the impact: how many app,feature, instances, how much data in (GB/TB/PB), 
 - List only the most important tools/skillsets that show direct impact. ( Any indirect ones you can leave under skills section)
-[b]Any project should have a link to github or some visualiaztion on a blog page or LInked article post
-[c]Any project should have a link to github or some visualiaztion on a blog page or LInked article post
+
+[just removing some comments and making changes]
